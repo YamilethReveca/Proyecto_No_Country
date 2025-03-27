@@ -1,0 +1,27 @@
+<section class="administrador">
+  <section class="admin-sidebar">
+    <h2>Admin Panel</h2>
+    <div class="button-group">
+      <ul>
+        <li>
+          <button class="boton-menu boton-categoria" routerLink="/gestion-usuario"><fa-icon [icon]="faHome"></fa-icon> Inicio</button>
+        </li>
+
+        <li><button class="boton-menu boton-categoria" routerLink="/virtual-computers"><i
+              class="fa-solid fa-folder-open"></i> Administrar materias</button>
+        </li>
+        <li><button class="boton-menu boton-categoria" routerLink="/gestion-usuario">
+            <fa-icon [icon]="faUser"></fa-icon> Gestion usuario
+          </button></li>
+        <li><button class="boton-menu boton-categoria" routerLink="/add-educational-notification">
+            <i class="fa-solid fa-users"></i> Administrar
+            división</button></li>
+        <button class="boton-cerrar boton-categoria" routerLink="/">
+          <fa-icon [icon]="faSignOutAlt"></fa-icon> Cerrar Sesión
+        </button>
+
+
+      </ul>
+    </div>
+  </section>
+</section>

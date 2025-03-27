@@ -1,0 +1,174 @@
+h2 {
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 37.5px;
+  height: 23px;
+  margin-bottom: 13px;
+}
+
+.login {
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.88);
+  padding: 20px;
+  width: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 16px;
+}
+
+.class-cloud{
+  width: 121px;
+  height: 88px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  position: relative;
+}
+
+.input-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  position: absolute;
+  left: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+  flex: 1;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 300;
+  line-height: 23.44px;
+  width: 68px;
+  height: 36px;
+  padding: 10px 10px 10px 47px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgba(0, 188, 212, 1);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login--cambio {
+  margin-top: 10px;
+  color: #007bff;
+  cursor: pointer;
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: italic;
+}
+
+form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.btn-primary {
+  padding: 6px 106px;
+  border: none;
+  border-radius: 50px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 270px;
+  height: 38px;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+
+input[type="checkbox" i] {
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+.login--cambio {
+  margin-top: 10px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+:host {
+  background-image: url("../../../assets/image/ImagenOptimizada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crear_cuenta_nueva {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgba(205, 220, 57, 1);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+/* login iniciar sesion */
+.roboto-bold {
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* css para movil */
+
+@media (max-width: 1280px) {
+
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+}

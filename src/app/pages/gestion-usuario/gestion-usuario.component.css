@@ -1,0 +1,82 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 80%;
+  height: 100%;
+  margin-top: 80px;
+  margin-left: 264px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 188px;
+  height: 42px;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.añadirUsuario {
+  background-color: #CDDC39;
+}
+
+.añadirUsuario:hover {
+  background-color: #b3b300;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #00BCD4;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+td {
+  font-size: 16px;
+}
+
+.botonmodificar-eliminar {
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+}
+
+.btn-eliminar {
+  background-color: red;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-eliminar:hover {
+  background-color: #cc0000;
+}

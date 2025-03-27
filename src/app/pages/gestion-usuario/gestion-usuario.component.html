@@ -1,0 +1,36 @@
+<app-header-administrador></app-header-administrador>
+<app-sidebar></app-sidebar>
+
+<section>
+  <h2>Gestión de Usuarios</h2>
+
+  <div class="button-container">
+    <button class="btn añadirUsuario" (click)="navigateTo('registro')">Añadir Usuario</button>
+    <button class="btn añadirUsuario">Importar</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Correo</th>
+        <th>Tipo Usuario</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuario of usuarios">
+        <td>{{ usuario.nombre }}</td>
+        <td>{{ usuario.correo }}</td>
+        <td>{{ usuario.tipo }}</td>
+        <td>
+          <button class="btn botonmodificar-eliminar" (click)="modifyUser(usuario)">Modificar</button>
+          <button class="btn botonmodificar-eliminar btn-eliminar" (click)="deleteUser(usuario)">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+<app-footer></app-footer>
